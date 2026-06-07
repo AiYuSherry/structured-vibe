@@ -1,6 +1,6 @@
 # 开发文档管理 — Claude Skill
 
-让 Claude Code 自动管理 PRD、Changelog、Dev-Log、Todo List，把产品定义和开发过程用文档沉淀下来，不再靠对话记录回忆。
+用一个 Skill 管理 PRD、Changelog、Dev-Log、Todo List 四份开发文档，把产品定义和开发过程用文档沉淀下来，不再靠对话记录回忆。让你的 Vibe Coding 不再杂乱无章。
 
 ## 要解决什么问题
 
