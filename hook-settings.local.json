@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.command' | grep -Eq '^git commit|^git\\s+commit' && echo '{\"systemMessage\": \"📋 提示：提交前请确认已同步 Dev-Log / Changelog / PRD。代码变更后即使不升 PRD，也要记录 Dev-Log。\"}' || true"
+          }
+        ]
+      }
+    ]
+  }
+}
